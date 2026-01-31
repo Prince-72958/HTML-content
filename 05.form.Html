@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>
+        creating signup form
+    </h1>
+    <form name="frm" method="post" action="#">
+        <table border="1px">
+            <tr>
+                <th colspan="2">creating signup form</th>
+            </tr>
+
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" name="Fullname" value="" /></td>
+            </tr>
+
+            <tr>
+                <td>Email address</td>
+                <td><input type="email" name="Email address" value="" /></td>
+            </tr>
+
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="text" name="Mobile number" value="" /></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="Mobile number" value="" /></td>
+            </tr>
+
+            <tr>
+                <td>D.O.B</td>
+                <td><input type="date" name="dob" value="" /></td>
+            </tr>
+
+            <tr>
+                <td>Age</td>
+                <td><input type="number" name="age" value="" /></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="Gender" value="Male" />Male<br />
+                    <input type="radio" name="Gender" value="female" />Female<br />
+                    <input type="radio" name="Gender" value="other" />Other
+                </td>
+            </tr>
+
+            <tr>
+                <td>Skill</td>
+                <td>
+                    <input type="checkbox" name="Skill" value="php">php<br />
+                    <input type="checkbox" name="Skill" value="python">python<br />
+                    <input type="checkbox" name="Skill" value="javascript">javascript<br />
+                    <input type="checkbox" name="Skill" value="java">java<br />
+                    <input type="checkbox" name="Skill" value="css">css<br />
+                    <input type="checkbox" name="Skill" value="HTML">HTML
+                </td>
+            </tr>
+
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="Country">
+                        <option value="">select your Country</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="UAE">UAE</option>
+                        <option value="other">other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hobbies</td>
+                <td>
+                    <select name="Hobbies">
+                        <option value="">Chose Your Hobbies</option>
+                        <option value="WAtching TV">WAtching TV</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Insatagram">Insatagram</option>
+                        <option value="Study">Study</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>File Upload</td>
+                <td>
+                    <input type="file" name="fileupload">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="addess"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="submit" value="submit">
+                    <input type="reset" name="reset" value="reset">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+    <br>
+    <br>
+
+    <fieldset>
+        <legend>login</legend>
+        <label>Username</label>
+        <input type="text" name="Username" value="" />
+
+        <label>Password</label>
+        <input type="password" name="password" value="">
+    </fieldset>
+
+    <fieldset>
+        <legend>payment</legend>
+        <label>Username</label>
+        <input type="text" name="Username" value="" />
+
+        <label>Password</label>
+        <input type="password" name="password" value="">
+    </fieldset>
+
+    <fieldset>
+        <legend>profile</legend>
+        <label>Username</label>
+        <input type="text" name="Username" value="" />
+
+        <label>Password</label>
+        <input type="password" name="password" value="">
+    </fieldset>
+</body>
+
+</html>
